@@ -38,7 +38,7 @@ public class HomePage {
 		navigateTo(dr);
 	}
 
-	public LoginPage doLogin(String uname, String psswd) {
+	public LoginPage doLogin() {
 		signInBtn.click();
 		return PageFactory.initElements(driver, LoginPage.class);
 	}
