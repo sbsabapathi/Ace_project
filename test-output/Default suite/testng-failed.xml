@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Ace_POM_Tests.SignUpTest">
+      <class name="Ace_POM_Tests.LoginTest">
         <methods>
           <include name="beforeClass"/>
           <include name="test"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- Ace_POM_Tests.SignUpTest -->
+      </class> <!-- Ace_POM_Tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
