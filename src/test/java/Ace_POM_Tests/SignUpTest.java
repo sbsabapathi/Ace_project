@@ -28,7 +28,7 @@ Assert.assertEquals(hp.pageTitle.getText(), "Acetrax Movies Homepage");
 
 SignUpPage sPage = hp.clickSignup();
 sPage.SignUp("ssbabu@hotmail.co.uk", "password", "123456", "word");
-
+Thread.sleep(2000);
 Assert.assertEquals(sPage.wordError.getText(), "Enter the word on the picture");
 }
 
